@@ -35,4 +35,4 @@ app.post("/api/testimonial", async (req, res) => {
     }
 });
 
-app.listen(PORT, console.log('Server connected'));
+app.listen(process.env.PORT || PORT, console.log('Server connected'));
