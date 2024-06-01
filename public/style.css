@@ -134,6 +134,7 @@ main .container .card img {
     margin-bottom: 2rem;
     border: 2px solid #149e9e;
     max-width: 100px;
+    aspect-ratio: 1;
     border-radius: 50%;
     transition: 0.3s;
 }
@@ -168,7 +169,6 @@ main .container .card:hover img {
     }
     main .container .card {
         width: 32rem;
-        /* padding: 1rem 0.5rem 2rem; */
     }
 }
 @media (max-width: 768px) {
